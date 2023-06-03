@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Youtube</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="row d-flex justify-content-between align-items-center mt-2">
+      <div class="col-lg-1 mx-4">
+        <span class="text-white fw-bold p-3 d-none d-lg-block">Youtube</span>
+      </div>
+      <div class="col-lg-5">
+        <div class="input-group input-group-lg">
+          <input
+            type="text"
+            class="form-control bg-transparent text-white w-full"
+            style="border-color: #222222; border-radius: 40px 0 0 40px"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-lg"
+          />
+          <span
+            class="input-group-text"
+            id="inputGroup-sizing-lg"
+            style="
+              background-color: #222222;
+              border-color: #222222;
+              border-radius: 0 40px 40px 0;
+            "
+          >
+            <a href="" class="text-decoration-none text-white">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="col-lg-1 align-items-center d-none d-lg-block">
+        <i class="fa-regular fa-bell" style="height: 30px; width: 30px"></i>
+        <img
+          src="/img/profile.jpg"
+          class="mx-3"
+          style="border-radius: 50px; height: 30px; width: 30px"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- End Navbar -->
+
+    <div class="row mt-3">
+      <!-- Sidebar -->
+      <div class="col-lg-2 mx-4">
+        <div class="row justify-content-center sidebar-menu-item py-3">
+          <div class="col-1 col-lg-1 mx-3" style="margin-right: 10px">
+            <i class="fa-solid fa-house"></i>
+          </div>
+          <div class="col col-lg">
+            <span class="fw-bold">Home</span>
+          </div>
+        </div>
+        <div class="row justify-content-center sidebar-menu-item py-3">
+          <div class="col-1 col-lg-1 mx-3" style="margin-right: 10px">
+            <i class="fa-solid fa-photo-film"></i>
+          </div>
+          <div class="col col-lg">
+            <span class="fw-bold">Library</span>
+          </div>
+        </div>
+        <hr class="d-none d-lg-block" />
+        <div class="row justify-content-center py-3">
+          <div class="col-1 col-lg-1 mx-3" style="margin-right: 10px">
+            <span class="fw-bold mb-3">Explore</span>
+          </div>
+          <div class="col col-lg"></div>
+        </div>
+        <div class="row justify-content-center sidebar-menu-item py-3">
+          <div class="col-1 col-lg-1 mx-3" style="margin-right: 10px">
+            <i class="fa-solid fa-fire"></i>
+          </div>
+          <div class="col col-lg">
+            <span class="fw-bold">Trending</span>
+          </div>
+        </div>
+        <div class="row justify-content-center sidebar-menu-item py-3">
+          <div class="col-1 col-lg-1 mx-3" style="margin-right: 10px">
+            <i class="fa-solid fa-music"></i>
+          </div>
+          <div class="col col-lg">
+            <span class="fw-bold">Music</span>
+          </div>
+        </div>
+        <div class="row justify-content-center sidebar-menu-item py-3">
+          <div class="col-1 col-lg-1 mx-3" style="margin-right: 10px">
+            <i class="fa-solid fa-clapperboard"></i>
+          </div>
+          <div class="col col-lg">
+            <span class="fw-bold">Movies</span>
+          </div>
+        </div>
+        <div class="row justify-content-center sidebar-menu-item py-3">
+          <div class="col-1 col-lg-1 mx-3" style="margin-right: 10px">
+            <i class="fa-solid fa-play"></i>
+          </div>
+          <div class="col col-lg">
+            <span class="fw-bold">Live</span>
+          </div>
+        </div>
+        <div class="row justify-content-center sidebar-menu-item py-3">
+          <div class="col-1 col-lg-1 mx-3" style="margin-right: 10px">
+            <i class="fa-solid fa-gear"></i>
+          </div>
+          <div class="col col-lg">
+            <span class="fw-bold">Setting</span>
+          </div>
+        </div>
+      </div>
+      <!-- End Sidebar -->
+      <!-- Home -->
+      <div class="col-lg">
+        <div class="row mt-3">
+          <div class="col-lg-4 mb-5">
+            <div style="position: relative; text-align: center; color: white">
+              <img
+                src="/img/thumbnail.webp"
+                style="height: 212px"
+                alt=""
+                class="img-fluid"
+              />
+              <div
+                style="
+                  position: absolute;
+                  bottom: 0;
+                  font-size: 13px;
+                  padding: 3px;
+                  right: 13px;
+                  background-color: #000000;
+                  color: #fafafa;
+                "
+                class="d-none d-lg-block"
+              >
+                14:00
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-1 col-lg-1" style="margin-left: 10px">
+                <img
+                  src="/img/profile.jpg"
+                  style="border-radius: 50px; height: 30px; width: 30px"
+                  alt=""
+                />
+              </div>
+              <div class="col col-lg mx-2">
+                <h6>Titanic Hidden Meaning and Easter Egg You Missed</h6>
+                <span class="text-secondary" style="font-size: 15px"
+                  >Cine Crib</span
+                ><br />
+                <span class="text-secondary" style="font-size: 15px"
+                  >1.8K 57 Minutes Ago</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <div style="position: relative; text-align: center; color: white">
+              <img
+                src="/img/thumbnail.webp"
+                style="height: 212px"
+                alt=""
+                class="img-fluid"
+              />
+              <div
+                style="
+                  position: absolute;
+                  bottom: 0;
+                  font-size: 13px;
+                  padding: 3px;
+                  right: 13px;
+                  background-color: #000000;
+                  color: #fafafa;
+                "
+                class="d-none d-lg-block"
+              >
+                14:00
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-1 col-lg-1" style="margin-left: 10px">
+                <img
+                  src="/img/profile.jpg"
+                  style="border-radius: 50px; height: 30px; width: 30px"
+                  alt=""
+                />
+              </div>
+              <div class="col col-lg mx-2">
+                <h6>Titanic Hidden Meaning and Easter Egg You Missed</h6>
+                <span class="text-secondary" style="font-size: 15px"
+                  >Cine Crib</span
+                ><br />
+                <span class="text-secondary" style="font-size: 15px"
+                  >1.8K 57 Minutes Ago</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <div style="position: relative; text-align: center; color: white">
+              <img
+                src="/img/thumbnail.webp"
+                style="height: 212px"
+                alt=""
+                class="img-fluid"
+              />
+              <div
+                style="
+                  position: absolute;
+                  bottom: 0;
+                  font-size: 13px;
+                  padding: 3px;
+                  right: 13px;
+                  background-color: #000000;
+                  color: #fafafa;
+                "
+                class="d-none d-lg-block"
+              >
+                14:00
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-1 col-lg-1" style="margin-left: 10px">
+                <img
+                  src="/img/profile.jpg"
+                  style="border-radius: 50px; height: 30px; width: 30px"
+                  alt=""
+                />
+              </div>
+              <div class="col col-lg mx-2">
+                <h6>Titanic Hidden Meaning and Easter Egg You Missed</h6>
+                <span class="text-secondary" style="font-size: 15px"
+                  >Cine Crib</span
+                ><br />
+                <span class="text-secondary" style="font-size: 15px"
+                  >1.8K 57 Minutes Ago</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <div style="position: relative; text-align: center; color: white">
+              <img
+                src="/img/thumbnail.webp"
+                style="height: 212px"
+                alt=""
+                class="img-fluid"
+              />
+              <div
+                style="
+                  position: absolute;
+                  bottom: 0;
+                  font-size: 13px;
+                  padding: 3px;
+                  right: 13px;
+                  background-color: #000000;
+                  color: #fafafa;
+                "
+                class="d-none d-lg-block"
+              >
+                14:00
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-1 col-lg-1" style="margin-left: 10px">
+                <img
+                  src="/img/profile.jpg"
+                  style="border-radius: 50px; height: 30px; width: 30px"
+                  alt=""
+                />
+              </div>
+              <div class="col col-lg mx-2">
+                <h6>Titanic Hidden Meaning and Easter Egg You Missed</h6>
+                <span class="text-secondary" style="font-size: 15px"
+                  >Cine Crib</span
+                ><br />
+                <span class="text-secondary" style="font-size: 15px"
+                  >1.8K 57 Minutes Ago</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <div style="position: relative; text-align: center; color: white">
+              <img
+                src="/img/thumbnail.webp"
+                style="height: 212px"
+                alt=""
+                class="img-fluid"
+              />
+              <div
+                style="
+                  position: absolute;
+                  bottom: 0;
+                  font-size: 13px;
+                  padding: 3px;
+                  right: 13px;
+                  background-color: #000000;
+                  color: #fafafa;
+                "
+                class="d-none d-lg-block"
+              >
+                14:00
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-1 col-lg-1" style="margin-left: 10px">
+                <img
+                  src="/img/profile.jpg"
+                  style="border-radius: 50px; height: 30px; width: 30px"
+                  alt=""
+                />
+              </div>
+              <div class="col col-lg mx-2">
+                <h6>Titanic Hidden Meaning and Easter Egg You Missed</h6>
+                <span class="text-secondary" style="font-size: 15px"
+                  >Cine Crib</span
+                ><br />
+                <span class="text-secondary" style="font-size: 15px"
+                  >1.8K 57 Minutes Ago</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <div style="position: relative; text-align: center; color: white">
+              <img
+                src="/img/thumbnail.webp"
+                style="height: 212px"
+                alt=""
+                class="img-fluid"
+              />
+              <div
+                style="
+                  position: absolute;
+                  bottom: 0;
+                  font-size: 13px;
+                  padding: 3px;
+                  right: 13px;
+                  background-color: #000000;
+                  color: #fafafa;
+                "
+                class="d-none d-lg-block"
+              >
+                14:00
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-1 col-lg-1" style="margin-left: 10px">
+                <img
+                  src="/img/profile.jpg"
+                  style="border-radius: 50px; height: 30px; width: 30px"
+                  alt=""
+                />
+              </div>
+              <div class="col col-lg mx-2">
+                <h6>Titanic Hidden Meaning and Easter Egg You Missed</h6>
+                <span class="text-secondary" style="font-size: 15px"
+                  >Cine Crib</span
+                ><br />
+                <span class="text-secondary" style="font-size: 15px"
+                  >1.8K 57 Minutes Ago</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Home -->
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/4c03683015.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

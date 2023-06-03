@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #0f0f0f;
+  /* background-color: red; */
+  color: #fff;
+}
+
+.sidebar-menu-item:hover {
+  background-color: rgba(202, 202, 202, 0.123);
+  border-radius: 40px;
+  width: 80%;
+  cursor: pointer;
+}
